@@ -20,12 +20,12 @@ echo "***Ads mount point Already available no worriers****"
 
 if  [ $l -gt 0 ] ;
 then
-echo " AMEX Directory is already mounted***YEEEEHHHHHHH****"
+echo " Directory is already mounted***YEEEEHHHHHHH****"
 fi
  
 
 n=tramasw
 cd ~$USERNAME/Desktop/Ads
 
-echo "Please Enter your AMEX ADS"
+echo "Please Enter your id"
 # mount.cifs //"Remote Server IP Address"/TSHome$/$n /home/$USERNAME/Desktop/Ads -o user=$n,domain=ADS
