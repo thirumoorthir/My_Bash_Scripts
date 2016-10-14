@@ -4,6 +4,7 @@ echo "Please enter NDM name , which you want to run Generate Plugin script"
 read ndm
 my_array=( `ls -d */ /basefolder/$ndm ` )
 my_array_length=${#my_array[@]}
+if 
 b=$my_array_length
 a=0
 #echo $my_array_length
